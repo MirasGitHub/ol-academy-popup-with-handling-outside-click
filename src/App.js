@@ -1,21 +1,13 @@
-import React, { Component } from 'react';
-import './App.css';
-import { Popup } from './components/Popup';
+import React from "react";
+import "./App.css";
+import { LearningPopups } from "./components/LearningPopups";
 
-
-
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-    
-      <Popup/>
-
-       
-      </div>
-    );
-  }
-}
+const App = () => {
+	return (
+		<div className="App">
+			<LearningPopups />
+		</div>
+	);
+};
 
 export default App;
