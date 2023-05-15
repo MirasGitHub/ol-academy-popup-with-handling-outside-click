@@ -23,7 +23,7 @@ const Popup = ({ handleClose }) => {
 		return () => {
 			document.removeEventListener("click", handleClick);
 		};
-	}, []);
+	});
 
 	return (
 		<div className="popup-wrapper" ref={popupRefWrapper}>
